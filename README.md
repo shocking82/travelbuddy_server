@@ -6,7 +6,8 @@
     -- 터미널실행 >$ npm install dotenv  mongoose body-parser
     -- 자동으로 package.json 파일 및 node_modules 폴더에 추가
  5. Preferences>Languages&Frameworks>JavaScript => JavaScript language version: ECMAScript6 변경
- 6. Plugin에서 MongoDB설치(Optional)
+ 6. module root에 .env 파일 생성, PORT, MONGO_URI 작성
+ 7. Plugin에서 MongoDB설치(Optional)
  
 * 개발방법
  1. models Directory 밑에 prefix 'm'로 시작하는 .js 파일 생성
